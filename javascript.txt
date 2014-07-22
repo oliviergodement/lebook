@@ -1,0 +1,38 @@
+			window.onload = function () {
+				
+				var t=setInterval(checkUpdatePage,1000);
+				
+				// if(detectmob()){
+				// }
+			}
+			
+			function checkUpdatePage(){
+			    var form = document.createElement("form");
+			    form.setAttribute("method", "get");
+			    form.setAttribute("action", "http://lebook.herokuapp.com/pages/check");
+			    document.body.appendChild(form);
+			    form.submit(function(event) {
+				    event.preventDefault();
+				    var val = $(this).find('updated').val();
+					console.log("checkUpdatePage return value:"+val);
+				
+					if(val){
+						requestUpdatePage();
+					}
+					deferred.success(function () {
+				        // Do your stuff.
+				    });
+				    deferred.error(function () {
+				        // Handle any errors here.
+				    });
+				});	
+			}
+			
+			
+			function requestUpdatePage(){
+				var form = document.createElement("form");
+			    form.setAttribute("method", "get");
+			    form.setAttribute("action", "http://lebook.herokuapp.com/pages/show");
+			    document.body.appendChild(form);
+			    form.submit();
+			}
