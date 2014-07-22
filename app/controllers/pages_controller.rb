@@ -15,12 +15,14 @@ class PagesController < ApplicationController
     Navigation.second.update_attribute(:last_page_id, @click_target)
     @current_page = Page.find(Navigation.second.last_page_id)
     @page_name = @current_page.name
+
   end
 
   def check
     @last_click = Navigation.first.last_page_id
     @current_page = Navigation.second.last_page_id
-    @last_click == @current_page ? @updated = false : @updated = true
+    @last_click == @current_page ? @updated = "false" : @updated = "true"
+    render :json => @updated
   end
 
 end

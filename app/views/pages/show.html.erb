@@ -1,3 +1,27 @@
 <h1>This is the content (right screen)</h1>
 
 <%= render @page_name %>
+
+<div class="updated"></div>
+
+<script>
+  window.onload = function () {
+    console.log("js script starting")
+    var t=setInterval(checkUpdatePage,100);
+  }
+
+  function checkUpdatePage(){
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+          if (xmlhttp.responseText == "true"){
+            window.location.reload();
+          };
+        }
+    }
+    xmlhttp.open("GET", "/pages/check", true);
+    xmlhttp.send();
+
+  }
+</script>
