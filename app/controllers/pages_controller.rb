@@ -29,4 +29,7 @@ class PagesController < ApplicationController
     render :json => @updated
   end
 
+  def image
+  end
+
 end

@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get 'pages/index' => 'pages#index'
   get 'pages/show'
+  get 'image' => 'pages#image'
 
   post 'pages/switch/:page_id' => 'pages#switch', as: :switch
   get 'pages/check' => 'pages#check', as: :check
