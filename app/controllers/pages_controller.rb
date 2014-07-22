@@ -7,7 +7,11 @@ class PagesController < ApplicationController
     # Navigation.second: current page on the right screen
     @click_target = Page.find_by(name: params[:page_id]).id
     Navigation.first.update_attribute(:last_page_id, @click_target)
-    redirect_to root_path
+    if root_url == request.referrer
+      redirect_to root_path
+    else
+      redirect_to pages_show_path
+    end
   end
 
   def show
