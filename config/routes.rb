@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
-  get 'menu/index'
 
-  root 'menu#index'
+  get 'pages/index' => 'pages#index'
+  get 'pages/show'
+
+  post 'pages/switch/:page_id' => 'pages#switch', as: :switch
+
+  root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
