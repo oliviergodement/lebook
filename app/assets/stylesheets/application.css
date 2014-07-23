@@ -34,10 +34,11 @@ body {
 }
 
 .menu-title{
-  font-size: 1.5em;
+  font-size: 300%;
   color: white;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 3%;
 }
 
 .search-bar {
@@ -77,6 +78,11 @@ body {
   color: white;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 3%;
+}
+
+.lg-input{
+  height: 60px;
 }
 
 h3 {
