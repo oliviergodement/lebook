@@ -31,7 +31,6 @@ body {
   background-color: lightgray;
   background:rgba(255,255,255,0.2);
   margin: auto auto;
-  margin-top: 5%;
 }
 
 .menu-title{
@@ -87,7 +86,7 @@ body {
 }
 
 h3 {
-  font-size: 150%;
+  font-size: 250%;
   margin-top: 5px;
   margin-bottom: 5px;
   color: white;
