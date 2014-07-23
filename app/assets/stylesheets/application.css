@@ -112,7 +112,7 @@ h3 {
 
 .margin10 {
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 50%;
 }
 
 .menu-2a {
@@ -144,6 +144,6 @@ h3 {
 }
 
 .menu-img {
-  height: 80%;
-  width: 80%;
+  height: 40%;
+  width: 40%;
 }
