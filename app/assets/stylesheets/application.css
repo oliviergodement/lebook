@@ -157,4 +157,14 @@ h3 {
 .full-img {
   width: 100%;
   height: 100%;
+  z-index:1;
+}
+
+.activities-link {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  z-index:2;
+  height: 25%;
+  width: 40%;
 }
