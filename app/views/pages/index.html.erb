@@ -1,70 +1,8 @@
-<div class="main-container">
-  <div class="menu-1">
-    <h1 class="menu-title">MENU</h1>
-    <form class="search-bar" role="form">
-      <div class="form-group">
-        <div class="input-group">
-          <input class="form-control lg-input" type="email" placeholder="What do you want to do?">
-          <div class="input-group-addon"><span class="glyphicon glyphicon-search"></div>
-        </div>
-      </div>
-    </form>
-  </div>
+<%= image_tag 'menu.jpg', class: "full-img" %>
 
-  <div class="menu-2">
-    <h2 class="menu-subtitle">ACTIVITIES/SERVICES</h2>
-    <div class="row">
-      <div class="col-xs-2"></div>
-      <div class="col-xs-4">
-        <%= image_tag '1829.png', class: "center-block menu-img" %>
-        <h3>Find activities</h3>
-      </div>
-      <div class="col-xs-4">
-        <%= image_tag '1860.png', class: "center-block menu-img" %>
-        <h3 >Order services</h3>
-      </div>
-      <div class="col-xs-2"></div>
-    </div>
-  </div>
-    <h2 class="menu-subtitle">FAMILY</h2>g
-  <div class="menu-3">
-    <div class="row">
+  <%= link_to switch_path('activities'), method: :post do %>
+    <div class="activities-link"></div>
+  <% end %>
 
-    </div>
-    <div class="row">
-      <div class="col-xs-2"></div>
-      <div class="col-xs-4">
-        <%= image_tag '5619.png', class: "center-block menu-img" %>
-        <h3>Shared photos</h3>
-      </div>
-      <div class="col-xs-4">
-        <%= image_tag '5555.png', class: "center-block  menu-img" %>
-        <h3>Videochat</h3>
-      </div>
-      <div class="col-xs-2"></div>
-    </div>
-  </div>
-
-
-  <div class="menu-4">
-    <div class="row">
-      <h2 class="menu-subtitle">TIMETABLE</h2>
-    </div>
-    <div class="row">
-      <div class="col-xs-2"></div>
-      <div class="col-xs-4">
-        <%= image_tag '14325.png', class: "center-block menu-img" %>
-        <h3>My calendar</h3>
-      </div>
-      <div class="col-xs-4">
-        <%= image_tag '5192.png', class: "center-block menu-img" %>
-        <h3>History</h3>
-      </div>
-      <div class="col-xs-2"></div>
-    </div>
-  </div>
-</div>
-
-<%= link_to "page a", switch_path('a'), method: :post %>
 <%= link_to "page b", switch_path('b'), method: :post %>
 <%= link_to "page c", switch_path('c'), method: :post %>
