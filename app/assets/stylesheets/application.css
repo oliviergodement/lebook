@@ -13,3 +13,80 @@
  *= require bootstrap
  *= require_self
  */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #034c85;
+  height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  width: 90%;
+  height: 90%;
+  background-color: lightgray;
+  background:rgba(255,255,255,0.2);
+  margin: auto auto;
+}
+
+.menu-title{
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.search-bar {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.menu-1 {
+  height: 15%;
+}
+
+.menu-2 {
+  height: 23%;
+  margin-bottom: 5px;
+}
+
+.menu-3 {
+  height: 23%;
+  margin-bottom: 5px;
+}
+
+.menu-4 {
+  height: 23%;
+  margin-bottom: 10px;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background:blue;
+}
+
+.menu-subtitle {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 0.8em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  text-align: center;
+}
+
+.img-center {
+  margin: 0 auto;
+}
