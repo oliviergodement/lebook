@@ -29,3 +29,5 @@ gem 'spring',        group: :development
 ruby '2.1.1'
 gem 'thin'
 gem 'rails_12factor', group: :production
+
+gem 'bootstrap-sass', '~> 3.1.1'
