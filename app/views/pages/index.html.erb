@@ -4,5 +4,9 @@
     <div class="activities-link"></div>
   <% end %>
 
+  <%= link_to switch_path('services'), method: :post do %>
+    <div class="services-link"></div>
+  <% end %>
+
 <%= link_to "page b", switch_path('b'), method: :post %>
 <%= link_to "page c", switch_path('c'), method: :post %>
