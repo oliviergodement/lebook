@@ -1,3 +1,4 @@
+<div class="main-container">
 <div class="menu-1">
   <h1 class="menu-title">MENU</h1>
   <form class="form-inline search-bar" role="form">
@@ -15,11 +16,11 @@
   <div class="row">
     <div class="col-xs-2"></div>
     <div class="col-xs-4">
-      <%= image_tag '1829.png', size: "80x80", class: "center-block" %>
+      <%= image_tag '1829.png', class: "center-block menu-img" %>
       <h3>Find activities</h3>
     </div>
     <div class="col-xs-4">
-      <%= image_tag '1860.png', size: "80x80", class: "center-block" %>
+      <%= image_tag '1860.png', class: "center-block menu-img" %>
       <h3 >Order services</h3>
     </div>
     <div class="col-xs-2"></div>
@@ -57,6 +58,7 @@
     </div>
     <div class="col-xs-2"></div>
   </div>
+</div>
 </div>
 
 <%= link_to "page a", switch_path('a'), method: :post %>

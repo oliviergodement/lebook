@@ -87,6 +87,52 @@ h3 {
   text-align: center;
 }
 
-.img-center {
-  margin: 0 auto;
+
+.right-container {
+  width: 90%;
+  height: 90%;
+  margin: auto auto;
+}
+
+.circle {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.margin10 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-2a {
+  height: 15%;
+}
+
+.menu-3a {
+  height: 15%;
+}
+
+.menu-4a {
+  height: 50%;
+}
+
+.activities-list {
+  width: 100%;
+  margin-top: 10px;
+  background-color: lightgray;
+  background:rgba(255,255,255,0.2);
+}
+
+.nopadding{
+  padding-left: 0px;
+}
+
+.menu-img {
+  height: 50%;
+  width: 50%;
 }
