@@ -1,3 +1,7 @@
 <div class="right-container">
   <%= image_tag 'photo.jpg', class: "full-img" %>
 </div>
+
+<%= link_to switch_path('photos2'), method: :post do %>
+<div class="photo-album-selection-link"></div>
+<% end %>

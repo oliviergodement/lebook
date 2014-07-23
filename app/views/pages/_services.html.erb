@@ -1,3 +1,20 @@
 <div class="right-container">
   <%= image_tag 'services.jpg', class: "full-img" %>
+
+  <%= link_to switch_path('daily'), method: :post do %>
+    <div class="services-daily-link"></div>
+  <% end %>
+
+  <%= link_to switch_path('homeservices'), method: :post do %>
+    <div class="home-link"></div>
+  <% end %>
+
+  <%= link_to switch_path('misc'), method: :post do %>
+    <div class="misc-link"></div>
+  <% end %>
+
+  <%= link_to switch_path('dashboard'), method: :post do %>
+    <div class="back-top"></div>
+  <% end %>
+
 </div>

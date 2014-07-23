@@ -24,6 +24,10 @@
 <div class="menu-history-link"></div>
 <% end %>
 
+<%= link_to switch_path('dashboard'), method: :post, remote: true do %>
+<div class="menu-dashboard-link"></div>
+<% end %>
+
 <%= link_to switch_path('help'), method: :post, remote: true do %>
 <div class="menu-help-link"></div>
 <% end %>
