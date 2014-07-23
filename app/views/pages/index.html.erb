@@ -1,10 +1,10 @@
 <%= image_tag 'menu.jpg', class: "full-img" %>
 
-  <%= link_to switch_path('activities'), method: :post do %>
+  <%= link_to switch_path('activities'), method: :post, remote: true do %>
     <div class="activities-link"></div>
   <% end %>
 
-  <%= link_to switch_path('services'), method: :post do %>
+  <%= link_to switch_path('services'), method: :post, remote: true do %>
     <div class="services-link"></div>
   <% end %>
 
