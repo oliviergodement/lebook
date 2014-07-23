@@ -5,9 +5,13 @@
 #
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Page.create(name: 'a')
-Page.create(name: 'b')
-Page.create(name: 'c')
+# Page.create(name: 'activities')
+# Page.create(name: 'services')
+Page.create(name: 'calendar')
+Page.create(name: 'help')
+Page.create(name: 'photos')
+Page.create(name: 'videochat')
+Page.create(name: 'history')
 
-Navigation.create(last_page_id: 1)
-Navigation.create(last_page_id: 1)
+# Navigation.create(last_page_id: 1)
+# Navigation.create(last_page_id: 1)

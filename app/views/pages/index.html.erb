@@ -1,12 +1,32 @@
 <%= image_tag 'menu.jpg', class: "full-img" %>
 
-  <%= link_to switch_path('activities'), method: :post, remote: true do %>
-    <div class="activities-link"></div>
-  <% end %>
+<%= link_to switch_path('activities'), method: :post, remote: true do %>
+<div class="activities-link"></div>
+<% end %>
 
-  <%= link_to switch_path('services'), method: :post, remote: true do %>
-    <div class="services-link"></div>
-  <% end %>
+<%= link_to switch_path('services'), method: :post, remote: true do %>
+<div class="services-link"></div>
+<% end %>
+
+<%= link_to switch_path('photos'), method: :post, remote: true do %>
+<div class="menu-photos-link"></div>
+<% end %>
+
+<%= link_to switch_path('videochat'), method: :post, remote: true do %>
+<div class="menu-videochat-link"></div>
+<% end %>
+
+<%= link_to switch_path('calendar'), method: :post, remote: true do %>
+<div class="menu-calendar-link"></div>
+<% end %>
+
+<%= link_to switch_path('history'), method: :post, remote: true do %>
+<div class="menu-history-link"></div>
+<% end %>
+
+<%= link_to switch_path('help'), method: :post, remote: true do %>
+<div class="menu-help-link"></div>
+<% end %>
 
 <%= link_to "page b", switch_path('b'), method: :post %>
 <%= link_to "page c", switch_path('c'), method: :post %>
