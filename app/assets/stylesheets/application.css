@@ -52,6 +52,7 @@ body {
   z-index:2;
   height: 25%;
   width: 40%;
+  background:red;
 }
 
 .services-link {
@@ -61,6 +62,7 @@ body {
   z-index: 2;
   height: 25%;
   width: 40%;
+  background:blue;
 }
 
 .menu-photos-link {
@@ -70,6 +72,7 @@ body {
   z-index: 2;
   height: 25%;
   width: 40%;
+  background:green;
 }
 
 .menu-videochat-link {
@@ -79,6 +82,7 @@ body {
   z-index: 2;
   height: 25%;
   width: 40%;
+  background:pink;
 }
 
 .menu-calendar-link {
@@ -88,6 +92,7 @@ body {
   z-index: 2;
   height: 25%;
   width: 40%;
+  background:tomato;
 }
 
 .menu-history-link {
@@ -97,6 +102,7 @@ body {
   z-index: 2;
   height: 25%;
   width: 40%;
+  background:crimson;
 }
 
 .menu-dashboard-link {
@@ -106,6 +112,7 @@ body {
   z-index: 2;
   height: 10%;
   width: 40%;
+  background:lightgray;
 }
 
 .menu-help-link {
@@ -115,6 +122,7 @@ body {
   z-index: 2;
   height: 10%;
   width: 20%;
+  background:darkblue;
 }
 
 .services-daily-link {
@@ -142,7 +150,6 @@ body {
   z-index:2;
   height: 25%;
   width: 50%;
-  background:red;
 }
 
 .misc-link {
@@ -151,7 +158,7 @@ body {
   right: 10%;
   z-index:2;
   height: 25%;
-  width: 40%;
+  width: 50%;
 }
 
 .back-top {
@@ -161,7 +168,6 @@ body {
   z-index:2;
   height: 10%;
   width: 40%;
-  background:red;
 }
 
 .homecategory-gardening-link {
