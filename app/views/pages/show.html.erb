@@ -2,14 +2,13 @@
 
 <script>
   window.onload = function () {
-    console.log("js script starting")
-    var t=setInterval(checkUpdatePage,500);
+    var t=setInterval(checkUpdatePage,200);
   }
 
   function checkUpdatePage(){
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange=function(){
-        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+    xmlhttp.onreadystatechange = function(){
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
           if (xmlhttp.responseText == "true"){
             window.location.reload();
           };
