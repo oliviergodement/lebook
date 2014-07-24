@@ -31,3 +31,4 @@ gem 'thin'
 gem 'rails_12factor', group: :production
 
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'vline-rails'

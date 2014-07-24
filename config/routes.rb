@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  mount Vline::API => '_vline/api'
+  match '_vline/api/v1/oauth/authorize' => 'vline#authorize', :via => :get
+  match '_vline/launch' => 'vline#launch', :via => :get
   get 'pages/index' => 'pages#index'
   get 'pages/show'
   get 'pages/activities' => 'pages#activities', as: :activities
