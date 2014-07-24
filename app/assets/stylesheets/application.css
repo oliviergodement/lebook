@@ -52,7 +52,6 @@ body {
   z-index:2;
   height: 25%;
   width: 40%;
-  background:red;
 }
 
 .services-link {
@@ -61,8 +60,7 @@ body {
   right: 10%;
   z-index: 2;
   height: 25%;
-  width: 40%;
-  background:blue;
+  width: 50%;
 }
 
 .menu-photos-link {
@@ -71,8 +69,7 @@ body {
   left: 10%;
   z-index: 2;
   height: 25%;
-  width: 40%;
-  background:green;
+  width: 50%;
 }
 
 .menu-videochat-link {
@@ -81,8 +78,7 @@ body {
   right: 10%;
   z-index: 2;
   height: 25%;
-  width: 40%;
-  background:pink;
+  width: 50%;
 }
 
 .menu-calendar-link {
@@ -91,8 +87,7 @@ body {
   left: 10%;
   z-index: 2;
   height: 25%;
-  width: 40%;
-  background:tomato;
+  width: 50%;
 }
 
 .menu-history-link {
@@ -101,8 +96,7 @@ body {
   right: 10%;
   z-index: 2;
   height: 25%;
-  width: 40%;
-  background:crimson;
+  width: 50%;
 }
 
 .menu-dashboard-link {
@@ -111,8 +105,7 @@ body {
   left: 10%;
   z-index: 2;
   height: 10%;
-  width: 40%;
-  background:lightgray;
+  width: 50%;
 }
 
 .menu-help-link {
@@ -121,8 +114,7 @@ body {
   right: 25%;
   z-index: 2;
   height: 10%;
-  width: 20%;
-  background:darkblue;
+  width: 50%;
 }
 
 .services-daily-link {
