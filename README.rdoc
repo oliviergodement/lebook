@@ -1,3 +1,5 @@
 == LeBook
 
-LeBook
+Simple real-time communication between two browsers (the first being used for navigation, the other to display the content).
+
+Built with a Rails server and AJAX requests.

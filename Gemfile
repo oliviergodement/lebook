@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.1.1'
 gem 'rails', '4.1.1'
+gem 'thin'
+gem 'rails_12factor', group: :production
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -25,9 +27,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
-
-ruby '2.1.1'
-gem 'thin'
-gem 'rails_12factor', group: :production
 
 gem 'bootstrap-sass', '~> 3.1.1'
