@@ -1,5 +1,5 @@
 == LeBook
 
-Simple real-time communication between two browsers (the first being used for navigation, the other to display the content).
+(Very) simple real-time communication between two browsers. The first browser is used as a menu. The second one displays instantly the content. Doesn't use WebRTC.
 
-Built with a Rails server and AJAX requests.
+Built in two days with a Rails server and AJAX requests.
